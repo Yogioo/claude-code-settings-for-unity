@@ -59,6 +59,7 @@
     "defaultMode": "plan"
   },
   "enabledMcpjsonServers": [
+    "context7",
     "gitmcp-UnityCsReference",
     "gitmcp-uGUI",
     "gitmcp-NewInputSystem",
