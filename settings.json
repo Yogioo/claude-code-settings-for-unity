@@ -3,7 +3,6 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git rm:*)",
       "Bash(ls:*)",
       "Bash(mkdir:*)",
       "Bash(rg:*)",
@@ -16,7 +15,17 @@
       "mcp__gitmcp-NewInputSystem",
       "mcp__UnityNaturalMCP",
       "mcp__jetbrains",
-      "mcp__ide__getDiagnostics"
+      "mcp__ide__getDiagnostics",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(tree:*)",
+      "Bash(git:log,status,diff,branch)",
+      "Bash(mvn:clean,compile,test)",
+      "Bash(npm:list,outdated)"
     ],
     "deny": [
       "Bash(sudo:*)",
