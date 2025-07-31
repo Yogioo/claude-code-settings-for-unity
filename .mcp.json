@@ -16,13 +16,18 @@
       "type": "http",
       "url": "https://gitmcp.io/Unity-Technologies/InputSystem"
     },
-    "UnityNaturalMCP": {
-      "type": "http",
-      "url": "http://localhost:56780/mcp"
+    "unityMCP": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:/Users/12737/AppData/Local/Programs/UnityMCP/UnityMcpServer/src",
+        "run",
+        "server.py"
+      ]
     },
     "jetbrains": {
       "type": "stdio",
-      "command": "npx",
+      "command": "cmd /c npx",
       "args": [
         "@jetbrains/mcp-proxy"
       ],

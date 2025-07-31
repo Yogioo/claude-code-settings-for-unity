@@ -1,0 +1,1 @@
+call `mcp__unityMCP__execute_menu_item("AIF/Run EditMode Tests")` then stop
